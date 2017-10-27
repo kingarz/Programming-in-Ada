@@ -3,7 +3,7 @@
 with Ada.Text_IO, Ada.Integer_Text_IO,Ada.Numerics.discrete_Random,Ada.Unchecked_Deallocation;
 use Ada.Text_IO, Ada.Integer_Text_IO;
 
-procedure Lab4List is
+procedure List is
 
    type Element is
       record
@@ -172,4 +172,4 @@ begin
    Remove(Lista,7);
    Print(Lista);
 
-end Lab4List;
+end List;
