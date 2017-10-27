@@ -93,7 +93,6 @@ procedure Free is new Ada.Unchecked_Deallocation(Element, Elem_Ptr);
 --Remove first element from list
 procedure RemoveFirst (List : in out Elem_Ptr) is
 	L: access Element := List;
-   	Temp : access Element;
 begin
 	if List /= Null then
 		L := List;
