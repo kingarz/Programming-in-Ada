@@ -72,7 +72,7 @@ begin
         for I in 1..N loop
         	Num := Random(Gen); --randomized integer
         	Insert_Sort(List,Num);
-        end loop
+        end loop;
 end Random_Insert;
 
 --search
